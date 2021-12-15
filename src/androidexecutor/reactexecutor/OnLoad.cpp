@@ -12,7 +12,7 @@
 #include <react/jni/JSLogging.h>
 #include <react/jni/JavaScriptExecutorHolder.h>
 
-#include "jsi/v8runtime/V8RuntimeConfig.h"
+#include "v8runtime/V8RuntimeConfig.h"
 
 namespace facebook {
 namespace react {

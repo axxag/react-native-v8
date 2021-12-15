@@ -2,7 +2,7 @@
 
 #include <memory.h>
 #include "jsi/jsi.h"
-#include "jsi/v8runtime/V8RuntimeConfig.h"
+#include "v8runtime/V8RuntimeConfig.h"
 
 namespace facebook {
 
