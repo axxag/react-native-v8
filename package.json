@@ -1,10 +1,14 @@
 {
-  "name": "react-native-v8",
-  "version": "v0.66.3-patch.1",
+  "name": "@axxag/react-native-v8",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "v0.67.0-patch.0",
   "description": "Opt-in V8 runtime for React Native Android",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kudo/react-native-v8.git"
+    "url": "git+https://github.com/axxag/react-native-v8.git"
   },
   "keywords": [
     "react-native",
@@ -26,13 +30,13 @@
     "build": "bash -c '. ./scripts/export_npm_env.sh && ./scripts/build.sh'"
   },
   "config": {
-    "RN_VERSION": "v0.66.3"
+    "RN_VERSION": "v0.67.0-rc.6"
   },
   "dependencies": {
     "v8-android-jit": "~9.93.0"
   },
   "peerDependencies": {
-    "react-native": "~0.66.3"
+    "react-native": "~0.67.0-rc.6"
   },
   "devDependencies": {
     "clang-format": "^1.4.0"
